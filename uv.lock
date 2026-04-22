@@ -249,6 +249,15 @@ wheels = [
 ]
 
 [[package]]
+name = "fldr"
+version = "1.4.8"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e3/55/078585d5a7d6cbc4744f70c39bc66605defb24271ee3169f4e0b1a947f89/fldr-1.4.8.tar.gz", hash = "sha256:5ab91b43e92b7e0aa1bad5810c490c053d005e2529fa034b368d25741b2fcf0f", size = 11695, upload-time = "2025-04-08T14:15:06.461Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a3/64/afb775c15239be95e03be3199ca3e127f9e6bceb523c3416a8edbd53c27b/fldr-1.4.8-py3-none-any.whl", hash = "sha256:4f48799c3c63b5c6b27d17a1d846841cea3c6a4b1198a2312fd35590457fdd33", size = 13202, upload-time = "2025-04-08T14:15:05.144Z" },
+]
+
+[[package]]
 name = "fonttools"
 version = "4.62.1"
 source = { registry = "https://pypi.org/simple" }
@@ -469,6 +478,7 @@ name = "mathfordeeplearning"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "fldr" },
     { name = "ipykernel" },
     { name = "matplotlib" },
     { name = "numpy" },
@@ -479,6 +489,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "fldr", specifier = ">=1.4.8" },
     { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "numpy", specifier = ">=2.4.4" },

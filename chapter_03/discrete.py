@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pylab as plt
 from scipy.datasets import face
 from fldr import *
-from fldrf import *
+#from fldrf import *
 
 #  binomial
 q = np.random.binomial(10, 0.7, 1000)
