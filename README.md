@@ -15,3 +15,7 @@ rkneuselbooks@gmail.com
 - p 257, the line above Equation 10.10 should be $\left[\frac{\partial E}{\partial y_0}\sigma'(x_0)\ \frac{\partial E}{\partial y_1}\sigma'(x_1)\ \ldots\ \right]^\top$.
 - Tweaked the Ch 10 code in *build_dataset.py* to conform to newer Keras versions
 
+## Reference 
+
+- [공돌이의 수학정리노트](https://angeloyeo.github.io/2020/09/07/basic_vector_operation.html)  
+
